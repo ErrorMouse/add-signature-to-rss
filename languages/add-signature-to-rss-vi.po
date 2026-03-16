@@ -1,0 +1,30 @@
+# Copyright (C) 2025 Err
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Add signature to RSS 1.0.0\n"
+"Report-Msgid-Bugs-To: https://profiles.wordpress.org/nmtnguyen56\n"
+"POT-Creation-Date: 2025-06-01 10:00+0000\n"
+"PO-Revision-Date: 2026-03-17 02:47+0700\n"
+"Last-Translator: Err <err@ketnoi.id.vn>\n"
+"Language-Team: Err\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.9\n"
+"X-Domain: err-add-signature-to-rss\n"
+"X-Generator: Poedit 3.6\n"
+
+#. Plugin Name of the plugin
+msgid "Add signature to RSS"
+msgstr "Thêm chữ ký vào RSS"
+
+#. Description of the plugin
+msgid "Adds a custom signature to your RSS feed items."
+msgstr "Thêm chữ ký tùy chỉnh vào các mục tin RSS của bạn."
+
+#: rss-add-signature.php:37
+msgid "This post was published at <a href=\"%1$s\" rel=\"dofollow\">%1$s</a> and is owned by <a href=\"%1$s\" rel=\"dofollow\">%2$s</a>."
+msgstr "Bài viết này được xuất bản tại <a href=\"%1$s\" rel=\"dofollow\">%1$s</a> và thuộc sở hữu của <a href=\"%1$s\" rel=\"dofollow\">%2$s</a>."

@@ -1,0 +1,28 @@
+# Copyright (C) 2024 YOUR NAME OR COMPANY NAME
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Add signature to RSS 1.0.0\n"
+"Report-Msgid-Bugs-To: https://profiles.wordpress.org/nmtnguyen56\n"
+"POT-Creation-Date: 2025-06-01 10:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Manually created\n"
+"X-Domain: err-add-signature-to-rss\n"
+
+#. Plugin Name of the plugin
+msgid "Add signature to RSS"
+msgstr ""
+
+#. Description of the plugin
+msgid "Adds a custom signature to your RSS feed items."
+msgstr ""
+
+#: rss-add-signature.php:37
+msgid "This post was published at <a href=\"%1$s\" rel=\"dofollow\">%1$s</a> and is owned by <a href=\"%1$s\" rel=\"dofollow\">%2$s</a>."
+msgstr ""
