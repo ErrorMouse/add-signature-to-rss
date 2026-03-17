@@ -64,7 +64,6 @@ function errplugin_add_signature_to_rss_enqueue_admin_scripts( $hook_suffix ) {
 	}
 }
 
-/* Donate */
 function errplugin_add_signature_to_rss_donate_link_html() {
 	$donate_url = 'https://err-mouse.id.vn/donate';
 	printf(
