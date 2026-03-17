@@ -38,16 +38,12 @@ function feedContentFilter($content){
 	return $content;
 }
 
+/* Donate */
 add_action( 'admin_enqueue_scripts', 'errplugin_add_signature_to_rss_enqueue_admin_scripts' );
 function errplugin_add_signature_to_rss_enqueue_admin_scripts( $hook_suffix ) {
 
 	$is_plugins_page  = ( 'plugins.php' === $hook_suffix );
 
-	if ( ! $is_plugins_page ) {
-		return;
-	}
-
-	// Styles for the donate link on the plugins page.
 	if ( $is_plugins_page ) {
 		$donate_css = "
             .err-donate-link {
@@ -74,8 +70,8 @@ function errplugin_add_signature_to_rss_donate_link_html() {
 	printf(
 		'<a href="%1$s" target="_blank" rel="noopener noreferrer" class="err-donate-link" aria-label="%2$s"><span>%3$s 🚀</span></a>',
 		esc_url( $donate_url ),
-		esc_attr__( 'Donate to support this plugin', 'add-signature-to-rss' ),
-		esc_html__( 'Donate', 'add-signature-to-rss' )
+		esc_attr__( 'Donate to support this plugin', 'add-signature-to-rss' ), //
+		esc_html__( 'Donate', 'add-signature-to-rss' ) //
 	);
 }
 
